@@ -7,7 +7,7 @@ class Learn extends Component {
 
     return (
         <div className = "App">
-          <a href = {Pdf} target = "_blank">Here is my resume</a>
+          <a href = {Pdf} target = "_blank"> Click here download my resume</a>
         </div>
     );
 

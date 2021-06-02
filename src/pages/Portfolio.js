@@ -5,6 +5,8 @@ import employeeDirectory from "../assets/eedir.png"
 import budget from "../assets/budget.png"
 import fitness from "../assets/fitness.png"
 import techblog from "../assets/techblog.png"
+import minGal from "../assets/minigal.png"
+import "./portfolio.css"
 
 
 function Portfolio() {
@@ -49,6 +51,15 @@ function Portfolio() {
     githubLink:"https://github.com/jamirov/Tech-Blog",
     deployedLink:"https://techlarblog.herokuapp.com/"
 
+  },
+  {
+    name:"My mini gallery",
+    description:"This full stack app allows you share your art with other artists in order to know their opinion",
+    imgSrc: minGal,
+    alt:"",
+    githubLink:"https://github.com/Amal31497/My-Mini-Gallery",
+    deployedLink:"#"
+
   }
 ])
 
@@ -60,6 +71,7 @@ function Portfolio() {
       <p>
       These are my projects I have done ..
       </p>
+      <div id="card" className="d-flex flex-wrap" >
       {projects.map(item=>{
        return <Projects
        name={item.name}
@@ -70,6 +82,8 @@ function Portfolio() {
        
        />
       }) }
+      </div>
+    
     </div>
   );
 }
