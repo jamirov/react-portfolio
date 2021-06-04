@@ -1,14 +1,14 @@
 import React from 'react';
 import emailjs from 'emailjs-com';
 
-// import './ContactUs.css';
+
 
 export default function ContactUs() {
 
   function sendEmail(e) {
     e.preventDefault();
 
-    emailjs.sendForm('gmail', 'service_6g7b619', e.target, 'user_1kyBGesYrl4Kyg57ATuXk')
+    emailjs.sendForm('service_6g7b619', 'template_53h2tap', e.target, 'user_1kyBGesYrl4Kyg57ATuXk')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
@@ -18,15 +18,38 @@ export default function ContactUs() {
   }
 
   return (
-    <form className="contact-form" onSubmit={sendEmail}>
-      <input type="hidden" name="contact_number" />
+    <div>
+<h5>You can contact me here</h5>
+    
+    <form className=" col-8 contact-form  py-5 "  onSubmit={sendEmail}>
+
+      <div className="col-10 form-group pt-2 flex-row ms-auto" >
       <label>Name</label>
-      <input type="text" name="user_name" />
+      <br/>
+      <input type="text" name="name" />
+      </div>
+      
+      
+      <div className="col-10 form-group pt-2 flex-row ms-auto" >
       <label>Email</label>
-      <input type="email" name="user_email" />
+      <br/>
+      <input type="email" name="email" />
+
+      </div>
+      
+      
+      <div className="col-10 form-group pt-2 ms-auto" >
       <label>Message</label>
+      <br/>
       <textarea name="message" />
-      <input type="submit" value="Send" />
+      </div>
+      <div className=" col-10 ms-auto " >
+      <input type="submit" value="Send Message" />
+
+      </div>
+      
     </form>
-  );
+    </div>
+      );
 }
+

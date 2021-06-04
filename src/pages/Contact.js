@@ -6,7 +6,7 @@ import Learn from "./Learn";
 function Contact(props) {
   return (
     <div>
-      <h1>Contact Page</h1>
+      <h1>Contact me</h1>
       < ContactUs />      
     </div>
   );
