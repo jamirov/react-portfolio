@@ -5,7 +5,7 @@ function Home() {
   return (
     <div className=" d-flex container">
       <img src={Photo} alt=" Jasur Amirov" />
-      <div id="text" className="text-center " >
+      <div id="text" className="text-center text-white " >
         <h2 className="text-center" >
           My name is Jasur. <br /> <h3>I am a Full-Stack Web Developer.</h3>
         </h2>
@@ -15,8 +15,8 @@ function Home() {
           WFS in Uzbekistan, Kashkadarya. In March 2015 I came to the United
           States and started a new career path.
         </p>
-        <p>
-          I am becoming a Full-Stack Web Developer with a background in the
+        <p className="text-white" >
+          I am a Full-Stack Web Developer with a background in the
           Multi-Family Property Management field. Currently, I am taking
           full-stack web development course in the University of Washington
           Coding Bootcamp, with newly developed skills in JavaScript, CSS,

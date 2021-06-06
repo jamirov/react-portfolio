@@ -6,8 +6,8 @@ class Learn extends Component {
   render() {
 
     return (
-        <div className = "App">
-          <a href = {Pdf} target = "_blank"> Click here download my resume</a>
+        <div className = " mt-10 App">
+          <a className="text-white " href = {Pdf} target = '_blank'> <h5>Click here download my resume</h5></a>
         </div>
     );
 

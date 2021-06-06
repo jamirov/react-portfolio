@@ -18,8 +18,8 @@ export default function ContactUs() {
   }
 
   return (
-    <div>
-<h5>You can contact me here</h5>
+    <div className="text-white" > 
+<h5>Please type your name, email and message I will respond you as soon as I can. </h5>
     
     <form className=" col-8 contact-form  py-5 "  onSubmit={sendEmail}>
 

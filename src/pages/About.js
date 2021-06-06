@@ -5,7 +5,7 @@ function About() {
     <div>
       <h1>About me</h1>
       <p>
-      I am becoming a Full-Stack Web Developer with a background in the
+      I am a Full-Stack Web Developer with a background in the
         Multi-Family Property Management field. Currently, I am taking
         full-stack web development course in the University of Washington Coding
         Bootcamp, with newly developed skills in JavaScript, CSS, JQuery, HTML,

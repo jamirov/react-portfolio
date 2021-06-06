@@ -5,7 +5,7 @@ import Learn from "./Learn";
 
 function Contact(props) {
   return (
-    <div>
+    <div className="text-white" >
       <h1>Contact me</h1>
       < ContactUs />      
     </div>

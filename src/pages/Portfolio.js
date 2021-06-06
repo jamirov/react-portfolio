@@ -58,7 +58,7 @@ function Portfolio() {
     imgSrc: minGal,
     alt:"",
     githubLink:"https://github.com/Amal31497/My-Mini-Gallery",
-    deployedLink:"#"
+    deployedLink:"https://my-mini-gallery.herokuapp.com/"
 
   }
 ])
@@ -71,7 +71,7 @@ function Portfolio() {
       <p>
       These are my projects I have done ..
       </p>
-      <div id="card" className="d-flex flex-wrap" >
+      <div id="card" className="d-flex flex-wrap " >
       {projects.map(item=>{
        return <Projects
        name={item.name}
