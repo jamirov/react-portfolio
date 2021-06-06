@@ -3,7 +3,7 @@
 
 * I made my portfolio using React
 
-# Technologies
+# Technologies used.
 
 * React.
 * Emailjs for contacting me on contact page.
