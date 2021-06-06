@@ -5,9 +5,9 @@
 
 # Technologies
 
-* React
-* Emailjs for contacting me on contact page
-* Bootstrap  for styling styling
+* React.
+* Emailjs for contacting me on contact page.
+* Bootstrap  for styling.
 
 # Screen shot
 
@@ -16,4 +16,4 @@
 
 # Deployed link
 
-* [This is a link to deployed website](https://www.google.com)
+* [This is a link to deployed website](https://www.google.com).
