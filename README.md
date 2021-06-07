@@ -16,4 +16,4 @@
 
 # Deployed link
 
-* [This is a link to deployed website](https://www.google.com).
+* [This is a link to deployed website](https://jamirov.github.io/react-portfolio/).
