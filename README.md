@@ -16,4 +16,4 @@
 
 # Deployed link
 
-* [This is a link to deployed website](https://jamirov.github.io/react-portfolio/).
+* [This is a link to deployed website](https://jasur-react-portfolio.herokuapp.com/).
