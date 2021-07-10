@@ -11,7 +11,7 @@ function Home() {
         </h2>
         <p  >
           I have 5 years of experience in an IT Department Weather Forecasting
-          Service (WFS). I worked as an IT Technician and then IT Supervisor in
+          Service. I worked as an IT Technician and then IT Supervisor in
           WFS in Uzbekistan, Kashkadarya. In March 2015 I came to the United
           States and started a new career path.
         </p>
